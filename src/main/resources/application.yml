@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: data-multidatasource
+  datasource:
+<<<<<<< HEAD
+#    jndi-name: MariaDB
+    
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://10.83.33.106:3306/test?rewriteBatchedStatements=true&useSSL=false
+    username: root
+    password: asdasd
+           
+#  jackson:
+#    serialization:
+#      indent-output: true
+      
+#mybatis:
+#  type-aliases-package: com.matic.vo          
+
+
+=======
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot1
+    username: root
+    password: asdasd
+  second-datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot2
+    username: root
+    password: asdasd
+      
+
+  jackson:
+    serialization:
+      indent-output: true
+>>>>>>> 02fdfce80c6d394c7f5fe98b7c62845b35f1bf82
+
+
+
+
+
+  
